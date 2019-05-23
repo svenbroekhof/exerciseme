@@ -10,8 +10,8 @@
                 SET `calorien` = `calorien` + 100
                 WHERE `id` = $id;";
 
-    mysqli_query($conn, $sql);
+header("./index.php?content=home");
 
-    header('./index.php?content=overzicht');
+    mysqli_query($conn, $sql);
 
 ?>
