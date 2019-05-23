@@ -1,4 +1,3 @@
-<!-- site -->
 <?php
     include("./connect_db.php");
     include("./functions.php");
@@ -10,8 +9,8 @@
                 SET `calorien` = `calorien` + 100
                 WHERE `id` = $id;";
 
-header("./index.php?content=home");
-
     mysqli_query($conn, $sql);
+
+    header("refresh: 0; url=./index.php?content=home")
 
 ?>
