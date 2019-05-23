@@ -1,0 +1,113 @@
+footer{
+    min-height: 20vh;
+    background-color: #343a40!important;
+    border-top: 1px solid black;
+    color: white;
+    margin-bottom: 0px;
+}
+
+.content {
+    /* background-color: rgb(238, 238, 238); */
+    min-height: 90vh;
+}
+
+/* custom scrollbar */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888; 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }
+
+  #navigatiebalk {
+    position: fixed;
+    width: 100%;
+    background-color: #0000;
+    color: black;
+    z-index: 100;
+    /* font-weight: bold; */
+  }
+
+  html {
+    background-color: #343a40!important;
+  }
+
+  textarea {
+    width: 100%;
+  }
+
+.nav-link {
+  color: #2b6fc7 !important;
+  }
+
+.navbar-brand {
+  color: #2b6fc7 !important;
+}
+
+
+  
+#hoofd{
+  text-align: center;
+  margin-top: 90px;
+  color: #2b6fc7;
+}  
+
+#midden{
+  margin-top: 50px;
+  font-size: 20px;
+  text-align: center;
+  max-width: 500px;
+  margin-left: auto ;
+  margin-right: auto ;
+}
+
+
+#home_img{
+  margin: auto;
+  width: 60%;
+  padding: 10px;
+}
+
+#center{
+  width: 200px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#knop{
+  text-align: center;
+  
+}
+#knop_uiterlijk{
+  /* padding: 70px;
+  border: 1px solid #4CAF50; */
+  padding: 15px;
+  background-color: #2b6fc7;
+  border: 2px solid #2b6fc7;
+  border-radius: 15px;
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+} 
+#knop_uiterlijk:hover {
+  color: black;
+  background-color: white;
+}
+#knop_uiterlijk:active {
+  color: white;
+  background-color: red;
+  border: red;
+}   
