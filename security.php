@@ -8,5 +8,4 @@
         header("Refresh: 5; url=./index.php?content=logout");
         exit();
     }
-    hahanu wekt de code niet meer
 ?>
