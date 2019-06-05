@@ -11,6 +11,9 @@
 
     mysqli_query($conn, $sql);
 
-    header("refresh: 0; url=./index.php?content=home")
+    header("refresh: 1; url=./index.php?content=fit")
 
 ?>
+<br>
+<br>
+<h1>Laden...</h1>
