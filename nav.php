@@ -30,9 +30,14 @@
                   </li>';
                 break;
             }
-              echo '<li class="nav-item">
-                      <a id="active_logout" class="nav-link" href="index.php?content=logout">Log Uit</a>
-                    </li>';
+              echo '
+                <li class="nav-item">
+                  <a id="active_overzicht" class="nav-link" href="index.php?content=fit">Overzicht</a>
+                </li>
+                
+                <li class="nav-item">
+                  <a id="active_logout" class="nav-link" href="index.php?content=logout">Log Uit</a>
+                </li>';
             } else{
               echo '
                 <li class="nav-item">
