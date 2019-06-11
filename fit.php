@@ -110,30 +110,29 @@
             <div id="licht" class="card-header">
                 licht
             </div>
-            <div class="card-body">
-                <h5 class="card-title">Push Up</h5><br>
+            <div >
                 <img id="img_card" src="./img/pushup.jpg" alt="push up" />
-                <a class="btn btn-primary" data-toggle="collapse" href="#pushup" role="button" aria-expanded="false" aria-controls="collapseExample">
-                    Doe de training!
-                </a>
-                <div class="collapse" id="pushup">
-                    <br>
-                    Ga als eerst op je knieën zitten en plaats je handen op de vloer.
-                    Plaats je handen op schouderbreedte en houd een lichte binnenwaartse buiging in je ellebogen.
-                    Strek je benen zodat je op je tenen komt te staan.
-                    Strek vervolgens je armen omhoog waardoor je jezelf van de grond af duwt.
-                    Zorg ervoor dat je dit op een explosieve manier doet, waarbij je maximale kracht uit je borstspieren en triceps haalt.
-                    Laat je hierna langzaam en gecontroleerd zakken terwijl je de rest van je lichaam recht houdt.
-                    Zak tot je nog iets boven de grond ‘zweeft’ en houd deze positieve even vast zodat je de spanning op je borstspieren voelt.
-                    Druk jezelf vervolgens weer op dezelfde wijze omhoog en herhaal dit voor het gewenste aantal reps.<br /><br />
-                    <a class="btn btn-primary" href="index.php?content=scripts/pushup_script" role="button" aria-expanded="false" aria-controls="collapseExample">
-                        voltooid
+                <h5 class="card-title">Push Up</h5><br>
+                <div class="card text-center">
+                    <a class="btn btn-primary" data-toggle="collapse" href="#pushup" role="button" aria-expanded="false" aria-controls="collapseExample">
+                        Doe de training!
                     </a>
+                    <div class="collapse" id="pushup">
+                        <br>
+                        Ga als eerst op je knieën zitten en plaats je handen op de vloer.
+                        Plaats je handen op schouderbreedte en houd een lichte binnenwaartse buiging in je ellebogen.
+                        Strek je benen zodat je op je tenen komt te staan.
+                        Strek vervolgens je armen omhoog waardoor je jezelf van de grond af duwt.
+                        Zorg ervoor dat je dit op een explosieve manier doet, waarbij je maximale kracht uit je borstspieren en triceps haalt.
+                        Laat je hierna langzaam en gecontroleerd zakken terwijl je de rest van je lichaam recht houdt.
+                        Zak tot je nog iets boven de grond ‘zweeft’ en houd deze positieve even vast zodat je de spanning op je borstspieren voelt.
+                        Druk jezelf vervolgens weer op dezelfde wijze omhoog en herhaal dit voor het gewenste aantal reps.<br /><br />
+                        <a class="btn btn-primary" href="index.php?content=scripts/pushup_script" role="button" aria-expanded="false" aria-controls="collapseExample">
+                            voltooid
+                        </a>
+                </div>
                 </div>
                 
-            </div>
-            <div class="card-footer text-muted">
-                2 days ago
             </div>
         </div>
     </div>
