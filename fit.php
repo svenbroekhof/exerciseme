@@ -155,6 +155,7 @@
                 <a class="btn btn-primary" data-toggle="collapse" href="#collapsExample" role="button" aria-expanded="false" aria-controls="collapseExample">
                     Doe de training!
                 </a>
+
                 <div class="collapse" id="collapsExample">
                     <br>
                     Ga als eerst op je knieën zitten en plaats je handen op de vloer.
@@ -165,10 +166,15 @@
                     Laat je hierna langzaam en gecontroleerd zakken terwijl je de rest van je lichaam recht houdt.
                     Zak tot je nog iets boven de grond ‘zweeft’ en houd deze positieve even vast zodat je de spanning op je borstspieren voelt.
                     Druk jezelf vervolgens weer op dezelfde wijze omhoog en herhaal dit voor het gewenste aantal reps.<br /><br />
-                    <a class="btn btn-primary" data-toggle="collapse" href="#collapsExample" role="button" aria-expanded="false" aria-controls="collapseExample">
-                        voltooid
-                    </a>
+                    
+                    <form action="./index.php?content=scripts/situp_script" method="post">
+                        <div class="form-group">
+                        <label for="aantal">Aantal minuten situps gedaan</label>
+                        <input type="number" class="form-control" id="InputAantal" aria-describedby="AantalHelp" placeholder="Voer uw aantal minuten in..." name="aantalsitups">
+                        <input type="submit" class="btn btn-primary" value="Voltooid!">
+                    </form>
                 </div>
+
             </div>
             <div class="card-footer text-muted">
                 2 days ago
