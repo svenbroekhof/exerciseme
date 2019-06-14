@@ -127,9 +127,15 @@
                         Laat je hierna langzaam en gecontroleerd zakken terwijl je de rest van je lichaam recht houdt.
                         Zak tot je nog iets boven de grond ‘zweeft’ en houd deze positieve even vast zodat je de spanning op je borstspieren voelt.
                         Druk jezelf vervolgens weer op dezelfde wijze omhoog en herhaal dit voor het gewenste aantal reps.<br /><br />
-                        <a class="btn btn-primary" href="index.php?content=scripts/pushup_script" role="button" aria-expanded="false" aria-controls="collapseExample">
-                            voltooid
-                        </a>
+                        <form action="./index.php?content=scripts/pushup_script" method="post">
+                            <div class="form-group">
+                            <label for="aantal">Aantal pushups</label>
+                            <input type="number" class="form-control" id="InputAantal" aria-describedby="AantalHelp"
+                             placeholder="Voer uw aantal pushups in..." name="aantalpushups">
+                            <input type="submit" class="btn btn-primary" value="Voltooid!">
+
+                        </form>
+
                 </div>
                 </div>
                 

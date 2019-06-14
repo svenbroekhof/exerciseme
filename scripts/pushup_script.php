@@ -1,12 +1,16 @@
 <?php
+    $userrole = ['admin','klant'];
+    
     include("./connect_db.php");
     include("./functions.php");
     //contact met de database
 
+    $trainingswaarde = $_POST["aantalpushups"] * 2;
+    
     $id = $_SESSION['id'];
 
     $sql = "UPDATE `login` 
-                SET `calorien` = `calorien` + 100
+                SET `calorien` = `calorien` + $trainingswaarde
                 WHERE `id` = $id;";
 
     mysqli_query($conn, $sql);
