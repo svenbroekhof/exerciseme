@@ -1,3 +1,5 @@
+<br>
+<br>
 <?php 
     if (!isset($_SESSION["id"])){
         echo '<div class="alert alert-danger" role="alert">Uw bent niet ingelogt en uw heeft daarom geen recht tot deze pagina</div>';
