@@ -2,15 +2,15 @@
     //toegang geven alleen als je bent ingelocht
     $userrole = ['admin','klant'];
     // Connecten met de DB en de beveiliging gebruiken
-    
+
     include("./connect_db.php");
     include("./security.php");
     //informatie oproepen uit de database en de sesion id opvragen
     $id = $_SESSION["id"];
     $sql = "SELECT * FROM `login`";
     $result = mysqli_query($conn, $sql);
-    
-    
+
+
  ?>
 <br>
 <br>
@@ -37,7 +37,7 @@
   <?php include("./trainingen.php"); ?>
   <div class="row">
     <div class="col">
-        <?php 
+        <?php
             // echo "$result";
         ?>
     </div>
@@ -66,9 +66,15 @@
                     Laat je hierna langzaam en gecontroleerd zakken terwijl je de rest van je lichaam recht houdt.
                     Zak tot je nog iets boven de grond ‘zweeft’ en houd deze positieve even vast zodat je de spanning op je borstspieren voelt.
                     Druk jezelf vervolgens weer op dezelfde wijze omhoog en herhaal dit voor het gewenste aantal reps.<br /><br />
-                    <a class="btn btn-primary" data-toggle="collapse" href="#collapsExample" role="button" aria-expanded="false" aria-controls="collapseExample">
-                        voltooid
-                    </a>
+
+                    <form action="./index.php?content=scripts/hardlopen_script" method="post">
+                        <div class="form-group">
+                        <label for="aantal">Aantal minuten hardgelopen</label>
+                        <input type="number" class="form-control" id="InputAantal" aria-describedby="AantalHelp"
+                         placeholder="Voer uw aantal minuten hardgelopen in..." name="hardloopminuten">
+                        <input type="submit" class="btn btn-primary" value="Voltooid!">
+
+                    </form>
                 </div>
             </div>
             <div class="card-footer text-muted">
@@ -100,7 +106,7 @@
                         voltooid
                     </a>
                 </div>
-                    
+
                 </div>
             <div class="card-footer text-muted">
                 2 days ago
@@ -140,7 +146,7 @@
 
                 </div>
                 </div>
-                
+
             </div>
         </div>
     </div>
@@ -168,7 +174,7 @@
                     Laat je hierna langzaam en gecontroleerd zakken terwijl je de rest van je lichaam recht houdt.
                     Zak tot je nog iets boven de grond ‘zweeft’ en houd deze positieve even vast zodat je de spanning op je borstspieren voelt.
                     Druk jezelf vervolgens weer op dezelfde wijze omhoog en herhaal dit voor het gewenste aantal reps.<br /><br />
-                    
+
                     <form action="./index.php?content=scripts/situp_script" method="post">
                         <div class="form-group">
                         <label for="aantal">Aantal minuten situps gedaan</label>
@@ -207,7 +213,7 @@
                         voltooid
                     </a>
                 </div>
-                    
+
                 </div>
             <div class="card-footer text-muted">
                 2 days ago
@@ -239,7 +245,7 @@
                         voltooid
                     </a>
                 </div>
-                
+
             </div>
             <div class="card-footer text-muted">
                 2 days ago
