@@ -1,9 +1,9 @@
 footer{
     min-height: 20vh;
     background-color: #343a40!important;
-    border-top: 1px solid black;
-    color: white;
+    color: #dfdfdf;
     margin-bottom: 0px;
+    font-size: 18px;
 }
 
 .content {
@@ -90,11 +90,12 @@ footer{
   margin-bottom: 15px;
 }
 #calorien{
-  font-size: 200px;
-  color: #5087cf;
+  text-align: center;
+  font-size: 15vw;
+  color: black;
   margin-left: auto ;
   margin-right: auto ;
-  border-bottom: 5px solid darkgray;
+  /* border-bottom: 2px solid darkgray; */
 }
 #klein{
   font-size: 50px;
@@ -137,3 +138,27 @@ footer{
   background-color: red;
   border: red;
 }   
+
+#footer_boven{
+  background-color: black;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+@media screen and (min-width: 601px){
+   #footer_boven{
+    font-size: 30px;
+   }
+}
+
+@media screen and (max-width: 600px){
+  #footer_boven{
+    font-size: 30px;
+  }
+}
+#footer{
+  color: #dfdfdf; 
+}
+.card{
+  margin-bottom: 20px;
+}
