@@ -19,7 +19,7 @@
     echo"<br> <br>";
 ?>
 
-    <h1><?php echo "Calorien verbrand: $trainingswaarde"; ?></h1>
+    <h1> <?php echo "Calorien verbrand: $trainingswaarde"; ?> </h1>
     
 <?php
     header("refresh: 3; url=./index.php?content=fit");
