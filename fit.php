@@ -10,7 +10,6 @@
     $sql = "SELECT * FROM `login`";
     $result = mysqli_query($conn, $sql);
 
-
  ?>
 <br>
 <br>
