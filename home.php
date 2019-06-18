@@ -13,5 +13,12 @@
 <p id="midden">Maak dus nu snel een account aan zodat je vandaag nog kan starten met het lijden van een fitter leven</p>
 <br><br>
 <div id="knop">
-    <a id="knop_uiterlijk" href="index.php?content=aanmelden" >Meld je aan!</a>
+<!-- checkt of je bent ingelocht en geeft daardoor aan wat de button doet -->
+<?php 
+    if ( isset($_SESSION["id"])){
+        echo '<a id="knop_uiterlijk" href="index.php?content=fit" >Bekijk Jou Progressie</a>';
+    } else{
+        echo '<a id="knop_uiterlijk" href="index.php?content=aanmelden" >Meld je aan!</a>';
+    }
+    ?>
 </div>

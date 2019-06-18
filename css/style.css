@@ -34,7 +34,7 @@ footer{
   #navigatiebalk {
     position: fixed;
     width: 100%;
-    background-color: #0000;
+    background-color: #ffffffe0;
     color: black;
     z-index: 100;
     /* font-weight: bold; */

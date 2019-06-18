@@ -14,9 +14,20 @@
 
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav mr-auto">
-      <li class="nav-item">
-        <a id="active_home" class="nav-link normaal" href="index.php?content=home">Home <span class="sr-only">(current)</span></a>
-      </li>
+    <?php 
+            if ( isset($_SESSION["id"])){
+
+              echo '
+                <li class="nav-item">
+                  <a id="active_overzicht" class="nav-link" href="index.php?content=fit">Overzicht</a>
+                </li>';
+            } else{
+              echo '
+                <li class="nav-item">
+                  <a id="active_login" class="nav-link" href="index.php?content=home">Home</a>
+                </li>';
+            }
+          ?>
       <li class="nav-item">
         <a id="active_contact" class="nav-link" href="index.php?content=contact">Contact</a>
       </li>
@@ -30,11 +41,7 @@
                   </li>';
                 break;
             }
-              echo '
-                <li class="nav-item">
-                  <a id="active_overzicht" class="nav-link" href="index.php?content=fit">Overzicht</a>
-                </li>
-                
+              echo '                
                 <li class="nav-item">
                   <a id="active_logout" class="nav-link" href="index.php?content=logout">Log Uit</a>
                 </li>';
