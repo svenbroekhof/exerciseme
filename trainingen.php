@@ -81,14 +81,14 @@
                         -Herhaal voor het gewenste aantal reps<br />
                         <br /><br />
                         <div class="text-center">
-                          <form action="./index.php?content=scripts/pushup_script" method="post">
+                          <!-- <form action="./index.php?content=scripts/pushup_script" method="post">
                               <div class="form-group">
                               <label for="aantal">Aantal pushups</label>
                               <input type="number" class="form-control" id="InputAantal" aria-describedby="AantalHelp"
                                placeholder="Voer uw aantal pushups in..." name="aantalpushups"><br>
                               <input type="submit" class="btn btn-primary" value="Voltooid!">
 
-                          </form><div style="height:8px;"></div>
+                          </form><div style="height:8px;"></div> -->
                         </div>
                     </div>
                 </div>
@@ -123,9 +123,10 @@
 
                           <form action="./index.php?content=scripts/situp_script" method="post">
                               <div class="form-group">
-                              <label for="aantal">Aantal minuten situps gedaan</label>
-                              <input type="number" class="form-control" id="InputAantal" aria-describedby="AantalHelp" placeholder="Voer uw aantal minuten in..." name="aantalsitups"><br>
-                              <input type="submit" class="btn btn-primary" value="Voltooid!">
+                                <label for="aantal">Aantal minuten situps gedaan</label>
+                                <input type="number" class="form-control" id="InputAantal" aria-describedby="AantalHelp" placeholder="Voer uw aantal minuten in..." name="aantalsitups"><br>
+                                <input type="submit" class="btn btn-primary" value="Voltooid!">
+                              </div>
                           </form>
 
                           <div style="height:8px;"></div>
