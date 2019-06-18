@@ -21,9 +21,14 @@
                         -En probeer deze oefening op te bouwen totdat je hem een minuut kunt volhouden.<br>
                         <br /><br />
                         <div class="text-center">
-                            <a class="btn btn-primary btn-block" href="index.php?content=scripts/pushup_script" role="button" aria-expanded="false" aria-controls="collapseExample">
-                                voltooid
-                            </a><div style="height:8px;"></div>
+                          <form action="./index.php?content=scripts/plank_script" method="post">
+                              <div class="form-group">
+                                <label for="aantal">Aantal minuten geplankt</label>
+                                <input type="number" class="form-control" id="InputAantal" aria-describedby="AantalHelp" placeholder="Voer uw aantal minuten in..." name="plankminuut"><br>
+                                <input type="submit" class="btn btn-primary" value="Voltooid!">
+                              </div>
+                          </form>
+                          <div style="height:8px;"></div>
                         </div>
                     </div>
                 </div>
@@ -49,9 +54,13 @@
                         -Laat de heupen gecontroleerd weer zakken en herhaal voor het gewenste aantal repetities.<br>
                         <br /><br />
                         <div class="text-center">
-                            <a class="btn btn-primary btn-block" href="index.php?content=scripts/pushup_script" role="button" aria-expanded="false" aria-controls="collapseExample">
-                                voltooid
-                            </a><div style="height:8px;"></div>
+                          <form action="./index.php?content=scripts/reversecrunch_script" method="post">
+                              <div class="form-group">
+                                <label for="aantal">Aantal minuten reverse crunch gedaan</label>
+                                <input type="number" class="form-control" id="InputAantal" aria-describedby="AantalHelp" placeholder="Voer uw aantal minuten in..." name="crunchminuut"><br>
+                                <input type="submit" class="btn btn-primary" value="Voltooid!">
+                              </div>
+                          </form><div style="height:8px;"></div>
                         </div>
                     </div>
                 </div>
@@ -162,9 +171,13 @@
                         -Herhaal voor het gewenste aantal reps<br />
                         <br /><br />
                         <div class="text-center">
-                            <a class="btn btn-primary btn-block" href="index.php?content=scripts/pushup_script" role="button" aria-expanded="false" aria-controls="collapseExample">
-                                voltooid
-                            </a><div style="height:8px;"></div>
+                          <form action="./index.php?content=scripts/airsquat_script" method="post">
+                              <div class="form-group">
+                                <label for="aantal">Aantal minuten air squats gedaan</label>
+                                <input type="number" class="form-control" id="InputAantal" aria-describedby="AantalHelp" placeholder="Voer uw aantal minuten in..." name="airsquatminuut"><br>
+                                <input type="submit" class="btn btn-primary" value="Voltooid!">
+                              </div>
+                          </form><div style="height:8px;"></div>
                         </div>
                     </div>
                 </div>
@@ -194,9 +207,13 @@
                         -Probeer deze oefening op te bouwen totdat je hem minimaal 30 seconden kunt vasthouden.<br />
                         <br /><br />
                         <div class="text-center">
-                            <a class="btn btn-primary btn-block" href="index.php?content=scripts/pushup_script" role="button" aria-expanded="false" aria-controls="collapseExample">
-                                voltooid
-                            </a><div style="height:8px;"></div>
+                          <form action="./index.php?content=scripts/sideplank_script" method="post">
+                              <div class="form-group">
+                                <label for="aantal">Aantal minuten side plank gedaan</label>
+                                <input type="number" class="form-control" id="InputAantal" aria-describedby="AantalHelp" placeholder="Voer uw aantal minuten in..." name="sideplankminuut"><br>
+                                <input type="submit" class="btn btn-primary" value="Voltooid!">
+                              </div>
+                          </form><div style="height:8px;"></div>
                         </div>
                     </div>
                 </div>
@@ -226,9 +243,13 @@
                         -Herhaal dit met beide kanten.<br />
                         <br /><br />
                         <div class="text-center">
-                            <a class="btn btn-primary btn-block" href="index.php?content=scripts/pushup_script" role="button" aria-expanded="false" aria-controls="collapseExample">
-                                voltooid
-                            </a><div style="height:8px;"></div>
+                          <form action="./index.php?content=scripts/airbike_script" method="post">
+                              <div class="form-group">
+                                <label for="aantal">Aantal minuten Abdominal air bike gedaan</label>
+                                <input type="number" class="form-control" id="InputAantal" aria-describedby="AantalHelp" placeholder="Voer uw aantal minuten in..." name="airbikeminuut"><br>
+                                <input type="submit" class="btn btn-primary" value="Voltooid!">
+                              </div>
+                          </form><div style="height:8px;"></div>
                         </div>
                     </div>
                 </div>
@@ -256,9 +277,13 @@
                         Breng het hoofd, de schouders en de borst weer naar beneden en herhaal voor het gewenste aantal herhalingen.<br />
                         <br /><br />
                         <div class="text-center">
-                            <a class="btn btn-primary btn-block" href="index.php?content=scripts/pushup_script" role="button" aria-expanded="false" aria-controls="collapseExample">
-                                voltooid
-                            </a><div style="height:8px;"></div>
+                          <form action="./index.php?content=scripts/crunch_script" method="post">
+                              <div class="form-group">
+                                <label for="aantal">Aantal crunches gedaan</label>
+                                <input type="number" class="form-control" id="InputAantal" aria-describedby="AantalHelp" placeholder="Voer uw aantal crunches in..." name="crunches"><br>
+                                <input type="submit" class="btn btn-primary" value="Voltooid!">
+                              </div>
+                          </form><div style="height:8px;"></div>
                         </div>
                     </div>
                 </div>
@@ -284,9 +309,13 @@
                         -Herhaal dit voor het aantal gewenste repetities.<br />
                         <br /><br />
                         <div class="text-center">
-                            <a class="btn btn-primary btn-block" href="index.php?content=scripts/pushup_script" role="button" aria-expanded="false" aria-controls="collapseExample">
-                                voltooid
-                            </a><div style="height:8px;"></div>
+                          <form action="./index.php?content=scripts/closegrip_script" method="post">
+                              <div class="form-group">
+                                <label for="aantal">Aantal close grip pushups gedaan</label>
+                                <input type="number" class="form-control" id="InputAantal" aria-describedby="AantalHelp" placeholder="Voer uw aantal in..." name="closegrips"><br>
+                                <input type="submit" class="btn btn-primary" value="Voltooid!">
+                              </div>
+                          </form><div style="height:8px;"></div>
                         </div>
                     </div>
                 </div>

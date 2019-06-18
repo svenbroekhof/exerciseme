@@ -15,20 +15,20 @@ footer{
 ::-webkit-scrollbar {
     width: 10px;
   }
-  
+
   /* Track */
   ::-webkit-scrollbar-track {
-    background: #f1f1f1; 
+    background: #f1f1f1;
   }
-   
+
   /* Handle */
   ::-webkit-scrollbar-thumb {
-    background: #888; 
+    background: #888;
   }
-  
+
   /* Handle on hover */
   ::-webkit-scrollbar-thumb:hover {
-    background: #555; 
+    background: #555;
   }
 
   #navigatiebalk {
@@ -57,12 +57,12 @@ footer{
 }
 
 
-  
+
 #hoofd{
   text-align: center;
   margin-top: 90px;
   color: #2b6fc7;
-}  
+}
 
 #midden{
   margin-top: 50px;
@@ -95,7 +95,7 @@ footer{
   color: black;
   margin-left: auto ;
   margin-right: auto ;
-  /* border-bottom: 2px solid darkgray; */
+  border-bottom: 2px solid darkgray;
 }
 #klein{
   font-size: 50px;
@@ -116,7 +116,7 @@ footer{
 
 #knop{
   text-align: center;
-  
+
 }
 #knop_uiterlijk{
   /* padding: 70px;
@@ -128,7 +128,7 @@ footer{
   color: white;
   text-decoration: none;
   font-size: 20px;
-} 
+}
 #knop_uiterlijk:hover {
   color: black;
   background-color: white;
@@ -137,7 +137,7 @@ footer{
   color: white;
   background-color: red;
   border: red;
-}   
+}
 
 #footer_boven{
   background-color: black;
@@ -157,7 +157,7 @@ footer{
   }
 }
 #footer{
-  color: #dfdfdf; 
+  color: #dfdfdf;
 }
 .card{
   margin-bottom: 20px;
