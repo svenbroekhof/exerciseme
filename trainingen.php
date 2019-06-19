@@ -58,7 +58,7 @@
                               <div class="form-group">
                                 <label for="aantal">Aantal minuten reverse crunch gedaan</label>
                                 <input type="number" class="form-control" id="InputAantal" aria-describedby="AantalHelp" placeholder="Voer uw aantal minuten in..." name="crunchminuut"><br>
-                                <input type="submit" class="btn btn-primary" value="Voltooid!">
+                                <input type="submit" class="btn btn-primary" value="Voltooid!" >
                               </div>
                           </form><div style="height:8px;"></div>
                         </div>
