@@ -24,21 +24,21 @@
             
             switch ($record["userrole"]){
                 case 'klant':
-                    echo '<br><br><div class="alert alert-success" role="alert">U bent ingelogd en word nu doorgestuurd</div>';
+                    echo '<br><br><br><div class="alert alert-success" role="alert">U bent ingelogd en word nu doorgestuurd</div>';
                     header("Refresh: 3; ./index.php?content=fit");
                 break;
                 case 'admin':
-                    echo '<br><br><div class="alert alert-success" role="alert">U bent ingelogd als administrator en word nu doorgestuurd</div>';
+                    echo '<br><br><br><div class="alert alert-success" role="alert">U bent ingelogd als administrator en word nu doorgestuurd</div>';
                     header("Refresh: 3; ./index.php?content=home");
                 break;
             }
           } else {
             // E-mailadres is niet bekend in database, terugsturen naar het inlogformulier
-            echo '<br><br><div class="alert alert-danger" role="alert">Uw wachtwoord is niet correct, probeer het nogmaals</div>';
+            echo '<br><br><br><div class="alert alert-danger" role="alert">Uw wachtwoord is niet correct, probeer het nogmaals</div>';
             header("Refresh: 2; url=./index.php?content=aanmelden");
           }
     } else{
-        echo '<br><br><div class="alert alert-danger" role="alert">Het ingevoerde e-mailaderes is niet bekent probeer opnieuw</div>';
+        echo '<br><br><br><div class="alert alert-danger" role="alert">Het ingevoerde e-mailaderes is niet bekent probeer opnieuw</div>';
         header("Refresh: 4; url=./index.php?content=aanmelden");
     }
 ?> 

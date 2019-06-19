@@ -24,13 +24,13 @@
 
     if ( $result ) {
         //succes
-        echo '<br><br><div class="alert alert-success" role="alert">
+        echo '<br><br><br><div class="alert alert-success" role="alert">
             Uw bericht is succesvol verzonden.
         </div>';
         header("Refresh: 4; url=./index.php?content=contact");
     } else {
         //foutmelding
-        echo '<br><br><div class="alert alert-danger" role="alert">
+        echo '<br><br><br><div class="alert alert-danger" role="alert">
         Er is iets fout gegaan tijdens het verzenden van uw bericht. Probeer het opnieuw.
     </div>';
     }
