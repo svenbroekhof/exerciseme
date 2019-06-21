@@ -24,7 +24,7 @@
                           <form action="./index.php?content=scripts/plank_script" method="post">
                               <div class="form-group">
                                 <label for="aantal">Aantal minuten geplankt</label>
-                                <input type="number" class="form-control" id="InputAantal" aria-describedby="AantalHelp" placeholder="Voer uw aantal minuten in..." name="plankminuut"><br>
+                                <input required type="number" class="form-control" id="InputAantal" aria-describedby="AantalHelp" placeholder="Voer uw aantal minuten in..." name="plankminuut"><br>
                                 <input type="submit" class="btn btn-primary" value="Voltooid!">
                               </div>
                           </form>
@@ -57,7 +57,7 @@
                           <form action="./index.php?content=scripts/reversecrunch_script" method="post">
                               <div class="form-group">
                                 <label for="aantal">Aantal minuten reverse crunch gedaan</label>
-                                <input type="number" class="form-control" id="InputAantal" aria-describedby="AantalHelp" placeholder="Voer uw aantal minuten in..." name="crunchminuut"><br>
+                                <input required type="number" class="form-control" id="InputAantal" aria-describedby="AantalHelp" placeholder="Voer uw aantal minuten in..." name="crunchminuut"><br>
                                 <input type="submit" class="btn btn-primary" value="Voltooid!" >
                               </div>
                           </form><div style="height:8px;"></div>
@@ -93,7 +93,7 @@
                           <form action="./index.php?content=scripts/pushup_script" method="post">
                               <div class="form-group">
                                 <label for="aantal">Aantal pushups</label>
-                                <input type="number" class="form-control" id="InputAantal" aria-describedby="AantalHelp"
+                                <input required type="number" class="form-control" id="InputAantal" aria-describedby="AantalHelp"
                                 placeholder="Voer uw aantal pushups in..." name="aantalpushups"><br>
                                 <input type="submit" class="btn btn-primary" value="Voltooid!">
                               </div>
@@ -133,7 +133,7 @@
                           <form action="./index.php?content=scripts/situp_script" method="post">
                               <div class="form-group">
                                 <label for="aantal">Aantal minuten situps gedaan</label>
-                                <input type="number" class="form-control" id="InputAantal" aria-describedby="AantalHelp" placeholder="Voer uw aantal minuten in..." name="aantalsitups"><br>
+                                <input required type="number" class="form-control" id="InputAantal" aria-describedby="AantalHelp" placeholder="Voer uw aantal minuten in..." name="aantalsitups"><br>
                                 <input type="submit" class="btn btn-primary" value="Voltooid!">
                               </div>
                           </form>
@@ -174,7 +174,7 @@
                           <form action="./index.php?content=scripts/airsquat_script" method="post">
                               <div class="form-group">
                                 <label for="aantal">Aantal minuten air squats gedaan</label>
-                                <input type="number" class="form-control" id="InputAantal" aria-describedby="AantalHelp" placeholder="Voer uw aantal minuten in..." name="airsquatminuut"><br>
+                                <input required type="number" class="form-control" id="InputAantal" aria-describedby="AantalHelp" placeholder="Voer uw aantal minuten in..." name="airsquatminuut"><br>
                                 <input type="submit" class="btn btn-primary" value="Voltooid!">
                               </div>
                           </form><div style="height:8px;"></div>
@@ -210,7 +210,7 @@
                           <form action="./index.php?content=scripts/sideplank_script" method="post">
                               <div class="form-group">
                                 <label for="aantal">Aantal minuten side plank gedaan</label>
-                                <input type="number" class="form-control" id="InputAantal" aria-describedby="AantalHelp" placeholder="Voer uw aantal minuten in..." name="sideplankminuut"><br>
+                                <input required type="number" class="form-control" id="InputAantal" aria-describedby="AantalHelp" placeholder="Voer uw aantal minuten in..." name="sideplankminuut"><br>
                                 <input type="submit" class="btn btn-primary" value="Voltooid!">
                               </div>
                           </form><div style="height:8px;"></div>
@@ -246,7 +246,7 @@
                           <form action="./index.php?content=scripts/airbike_script" method="post">
                               <div class="form-group">
                                 <label for="aantal">Aantal minuten Abdominal air bike gedaan</label>
-                                <input type="number" class="form-control" id="InputAantal" aria-describedby="AantalHelp" placeholder="Voer uw aantal minuten in..." name="airbikeminuut"><br>
+                                <input required type="number" class="form-control" id="InputAantal" aria-describedby="AantalHelp" placeholder="Voer uw aantal minuten in..." name="airbikeminuut"><br>
                                 <input type="submit" class="btn btn-primary" value="Voltooid!">
                               </div>
                           </form><div style="height:8px;"></div>
@@ -280,7 +280,7 @@
                           <form action="./index.php?content=scripts/crunch_script" method="post">
                               <div class="form-group">
                                 <label for="aantal">Aantal crunches gedaan</label>
-                                <input type="number" class="form-control" id="InputAantal" aria-describedby="AantalHelp" placeholder="Voer uw aantal crunches in..." name="crunches"><br>
+                                <input required type="number" class="form-control" id="InputAantal" aria-describedby="AantalHelp" placeholder="Voer uw aantal crunches in..." name="crunches"><br>
                                 <input type="submit" class="btn btn-primary" value="Voltooid!">
                               </div>
                           </form><div style="height:8px;"></div>
@@ -312,7 +312,7 @@
                           <form action="./index.php?content=scripts/closegrip_script" method="post">
                               <div class="form-group">
                                 <label for="aantal">Aantal close grip pushups gedaan</label>
-                                <input type="number" class="form-control" id="InputAantal" aria-describedby="AantalHelp" placeholder="Voer uw aantal in..." name="closegrips"><br>
+                                <input required type="number" class="form-control" id="InputAantal" aria-describedby="AantalHelp" placeholder="Voer uw aantal in..." name="closegrips"><br>
                                 <input type="submit" class="btn btn-primary" value="Voltooid!">
                               </div>
                           </form><div style="height:8px;"></div>
