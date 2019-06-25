@@ -25,6 +25,11 @@
         if($id == $db_id){
             echo $row['calorien'];
         }
+        if($row['calorien'] >= 100) {
+            echo 'We raden je nu aan om een training van het niveau "Gevorderd" te doen';
+        } else {
+            echo "Er is een fout opgetreden";
+        }
     }
     ?>
     <a id="klein">calorien verbrand</a>
@@ -37,7 +42,9 @@
 <?php 
 $db_id = $row['id'];
 
+echo $row['calorien'];
 if ($id == $db_id) {
+    echo 'kaas';
     if($row['calorien'] >= 100) {
         echo 'We raden je nu aan om een training van het niveau "Gevorderd" te doen';
     } else {
