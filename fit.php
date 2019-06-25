@@ -33,4 +33,17 @@
 <br>
 <div class="container">
   <br>
+
+<?php 
+$db_id = $row['id'];
+
+if ($id == $db_id) {
+    if($row['calorien'] >= 100) {
+        echo 'We raden je nu aan om een training van het niveau "Gevorderd" te doen';
+    } else {
+        echo "Er is een fout opgetreden";
+    }
+}
+
+?>
   <?php include("./trainingen.php"); ?>

@@ -8,11 +8,18 @@
 
     $trainingswaarde = $_POST["airsquatminuut"] * 6;
 
+    $level = 1;
+
     $id = $_SESSION['id'];
 
     $sql = "UPDATE `login`
                 SET `calorien` = `calorien` + $trainingswaarde
-                WHERE `id` = $id;";
+                
+                WHERE `id` = $id;
+                
+                SET `niveau` = `niveau` + $level
+                WHERE `id` = $id;
+                ";
 
     mysqli_query($conn, $sql);
 
