@@ -5,9 +5,11 @@
             beginner
             </div>
             <div>
-                <img id="img_card" src="./img/Plank.jpg" alt="push up" data-toggle="collapse" href="#plank" aria-expanded="false" aria-controls="collapseExample"/>
-                <div class="text-center" data-toggle="collapse" href="#plank" aria-expanded="false" aria-controls="collapseExample" style="height:35px;">
-                    <h5>Plank</h5><br>
+                <div id="cursor">
+                    <img id="img_card" src="./img/Plank.jpg" alt="push up" data-toggle="collapse" href="#plank" aria-expanded="false" aria-controls="collapseExample"/>
+                    <div class="text-center" data-toggle="collapse" href="#plank" aria-expanded="false" aria-controls="collapseExample" style="height:35px;">
+                        <h5>Plank</h5><br>
+                    </div>
                 </div>
                 <div>
                     <div class="collapse container" id="plank">

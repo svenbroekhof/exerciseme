@@ -78,6 +78,10 @@ footer{
   cursor: pointer;
 }
 
+#cursor{
+  cursor: pointer;
+}
+
 
 #img_card{
   width: 100%;
