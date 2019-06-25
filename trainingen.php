@@ -292,7 +292,7 @@
     </div>
     <div class="col-sm">
     <div class="card">
-            <div id="licht" class="card-header text-center" data-toggle="collapse" href="#CloseGripPushUp" aria-expanded="false" aria-controls="collapseExample">
+            <div id="pointer" id="licht" class="card-header text-center" data-toggle="collapse" href="#CloseGripPushUp" aria-expanded="false" aria-controls="collapseExample">
                 beginner
             </div>
             <div>

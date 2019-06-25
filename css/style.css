@@ -75,15 +75,9 @@ footer{
 
 #licht{
   background-color: rgb(0, 200, 90);
+  cursor: pointer;
 }
 
-#gemmideld{
-  background-color: #e6e653db;
-}
-
-#zwaar{
-  background-color: #ff0000ba;
-}
 
 #img_card{
   width: 100%;
@@ -161,4 +155,8 @@ footer{
 }
 .card{
   margin-bottom: 20px;
+}
+
+#pointer{
+  cursor: pointer;
 }
