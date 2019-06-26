@@ -295,7 +295,7 @@
                         <div class="text-center">
                           <form action="./index.php?content=scripts/crunch_script" method="post">
                               <div class="form-group">
-                                <label for="aantal">Aantal crunches gedaan</label>
+                                <label for="aantal">Aantal Minuten gedaan</label>
                                 <input required type="number" class="form-control" id="InputAantal" aria-describedby="AantalHelp" placeholder="Voer uw aantal crunches in..." name="crunches"><br>
                                 <input type="submit" class="btn btn-primary" value="Voltooid!">
                               </div>

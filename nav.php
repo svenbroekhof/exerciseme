@@ -19,7 +19,7 @@
 
               echo '
                 <li class="nav-item">
-                  <a id="active_overzicht" class="nav-link" href="index.php?content=fit">Overzicht</a>
+                  <a id="active_overzicht" class="nav-link" href="index.php?content=fit">Trainingen</a>
                 </li>';
                 echo '
                 <li class="nav-item">

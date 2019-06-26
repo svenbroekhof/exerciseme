@@ -16,9 +16,10 @@
 <!-- checkt of je bent ingelocht en geeft daardoor aan wat de button doet -->
 <?php 
     if ( isset($_SESSION["id"])){
-        echo '<a id="knop_uiterlijk" href="index.php?content=fit" >Bekijk Jou Progressie</a>';
+        echo '<a id="knop_uiterlijk" href="index.php?content=fit" >Bekijk De Trainingen</a>';
     } else{
         echo '<a id="knop_uiterlijk" href="index.php?content=aanmelden" >Meld je aan!</a>';
     }
     ?>
+    <br /><br><br>
 </div>
