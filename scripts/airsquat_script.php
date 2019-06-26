@@ -8,21 +8,19 @@
 
     $trainingswaarde = $_POST["airsquatminuut"] * 6;
 
-    $level = 1;
-
     $id = $_SESSION['id'];
 
     $sql = "UPDATE `login`
                 SET `calorien` = `calorien` + $trainingswaarde
                 
-                WHERE `id` = $id;
-                
-                SET `niveau` = `niveau` + $level
-                WHERE `id` = $id;
-                ";
+                WHERE `id` = $id;";
 
     mysqli_query($conn, $sql);
 
+    $sql = "INSERT INTO `progressie` (`id`, `training`, `aantalMinuten`, `calorien`, `datum`) VALUES ( $id , 'Air Squat', '" . $_POST["airsquatminuut"] . "' , $trainingswaarde , '" . date("d-m-Y") . "' );";
+
+    mysqli_query($conn, $sql);
+    
     echo"<br> <br>";
 ?>
 

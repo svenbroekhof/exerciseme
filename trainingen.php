@@ -42,10 +42,12 @@
             <div id="licht" class="card-header text-center" data-toggle="collapse" href="#ReverseCrunch" aria-expanded="false" aria-controls="collapseExample">
             gevorderd
             </div>
-            <div>
-                <img id="img_card" src="./img/Reverse-Crunch.jpg" alt="ReverseCrunch" data-toggle="collapse" href="#ReverseCrunch" aria-expanded="false" aria-controls="collapseExample"/>
-                <div class="text-center" data-toggle="collapse" href="#ReverseCrunch" aria-expanded="false" aria-controls="collapseExample" style="height:35px;">
-                    <h5>Reverse Crunch</h5><br>
+            <div >
+                <div id="cursor">
+                    <img id="img_card" src="./img/Reverse-Crunch.jpg" alt="ReverseCrunch" data-toggle="collapse" href="#ReverseCrunch" aria-expanded="false" aria-controls="collapseExample"/>
+                    <div class="text-center" data-toggle="collapse" href="#ReverseCrunch" aria-expanded="false" aria-controls="collapseExample" style="height:35px;">
+                        <h5>Reverse Crunch</h5><br>
+                    </div>
                 </div>
                 <div>
                     <div class="collapse container" id="ReverseCrunch">
@@ -75,9 +77,11 @@
             beginner
             </div>
             <div>
-                <img id="img_card" src="./img/pushup.jpg" alt="PushUp" data-toggle="collapse" href="#PushUp" aria-expanded="false" aria-controls="collapseExample"/>
-                <div class="text-center" data-toggle="collapse" href="#PushUp" aria-expanded="false" aria-controls="collapseExample" style="height:35px;">
-                    <h5>Push Up</h5><br>
+                <div id="cursor">
+                    <img id="img_card" src="./img/pushup.jpg" alt="PushUp" data-toggle="collapse" href="#PushUp" aria-expanded="false" aria-controls="collapseExample"/>
+                    <div class="text-center" data-toggle="collapse" href="#PushUp" aria-expanded="false" aria-controls="collapseExample" style="height:35px;">
+                        <h5>Push Up</h5><br>
+                    </div>
                 </div>
                 <div>
                     <div class="collapse container" id="PushUp">
@@ -114,9 +118,11 @@
             beginner
             </div>
             <div>
-                <img id="img_card" src="./img/Sit-Up-arms-crossed.jpg" alt="SitUp" data-toggle="collapse" href="#SitUp" aria-expanded="false" aria-controls="collapseExample"/>
-                <div class="text-center" data-toggle="collapse" href="#SitUp" aria-expanded="false" aria-controls="collapseExample" style="height:35px;">
-                    <h5>Sit Up</h5><br>
+                <div id="cursor">
+                    <img id="img_card" src="./img/Sit-Up-arms-crossed.jpg" alt="SitUp" data-toggle="collapse" href="#SitUp" aria-expanded="false" aria-controls="collapseExample"/>
+                    <div class="text-center" data-toggle="collapse" href="#SitUp" aria-expanded="false" aria-controls="collapseExample" style="height:35px;">
+                        <h5>Sit Up</h5><br>
+                    </div>
                 </div>
                 <div>
                     <div class="collapse container" id="SitUp">
@@ -153,9 +159,11 @@
                 beginner
             </div>
             <div>
-                <img id="img_card" src="./img/Air-Squat.jpg" alt="AirSquat" data-toggle="collapse" href="#AirSquat" aria-expanded="false" aria-controls="collapseExample"/>
-                <div class="text-center" data-toggle="collapse" href="#AirSquat" aria-expanded="false" aria-controls="collapseExample" style="height:35px;">
-                    <h5>Air Squat</h5><br>
+                <div id="cursor">
+                    <img id="img_card" src="./img/Air-Squat.jpg" alt="AirSquat" data-toggle="collapse" href="#AirSquat" aria-expanded="false" aria-controls="collapseExample"/>
+                    <div class="text-center" data-toggle="collapse" href="#AirSquat" aria-expanded="false" aria-controls="collapseExample" style="height:35px;">
+                        <h5>Air Squat</h5><br>
+                    </div>
                 </div>
                 <div>
                     <div class="collapse container" id="AirSquat">
@@ -192,9 +200,11 @@
                 gevorderd
             </div>
             <div>
-                <img id="img_card" src="./img/Side-Plank.jpg" alt="SidePlank" data-toggle="collapse" href="#SidePlank" aria-expanded="false" aria-controls="collapseExample"/>
-                <div class="text-center" data-toggle="collapse" href="#SidePlank" aria-expanded="false" aria-controls="collapseExample" style="height:35px;">
-                    <h5>Side Plank</h5><br>
+                <div id="cursor">
+                    <img id="img_card" src="./img/Side-Plank.jpg" alt="SidePlank" data-toggle="collapse" href="#SidePlank" aria-expanded="false" aria-controls="collapseExample"/>
+                    <div class="text-center" data-toggle="collapse" href="#SidePlank" aria-expanded="false" aria-controls="collapseExample" style="height:35px;">
+                        <h5>Side Plank</h5><br>
+                    </div>
                 </div>
                 <div>
                     <div class="collapse container" id="SidePlank">
@@ -230,9 +240,11 @@
                 ervaren
             </div>
             <div>
-                <img id="img_card" src="./img/Abdominal-air-bike.jpg" alt="AbdominalAirBike" data-toggle="collapse" href="#AbdominalAirBike" aria-expanded="false" aria-controls="collapseExample"/>
-                <div class="text-center" data-toggle="collapse" href="#AbdominalAirBike" aria-expanded="false" aria-controls="collapseExample" style="height:35px;">
-                    <h5>Abdominal Air Bike</h5><br>
+                <div id="cursor">
+                    <img id="img_card" src="./img/Abdominal-air-bike.jpg" alt="AbdominalAirBike" data-toggle="collapse" href="#AbdominalAirBike" aria-expanded="false" aria-controls="collapseExample"/>
+                    <div class="text-center" data-toggle="collapse" href="#AbdominalAirBike" aria-expanded="false" aria-controls="collapseExample" style="height:35px;">
+                        <h5>Abdominal Air Bike</h5><br>
+                    </div>
                 </div>
                 <div>
                     <div class="collapse container" id="AbdominalAirBike">
@@ -264,19 +276,21 @@
                 beginner
             </div>
             <div>
-                <img id="img_card" src="./img/Crunch-uitvoering.jpg" alt="Crunches" data-toggle="collapse" href="#Crunches" aria-expanded="false" aria-controls="collapseExample"/>
-                <div class="text-center" data-toggle="collapse" href="#Crunches" aria-expanded="false" aria-controls="collapseExample" style="height:35px;">
-                    <h5>Crunches</h5><br>
+                <div id="cursor">
+                    <img id="img_card" src="./img/Crunch-uitvoering.jpg" alt="Crunches" data-toggle="collapse" href="#Crunches" aria-expanded="false" aria-controls="collapseExample"/>
+                    <div class="text-center" data-toggle="collapse" href="#Crunches" aria-expanded="false" aria-controls="collapseExample" style="height:35px;">
+                        <h5>Crunches</h5><br>
+                    </div>
                 </div>
                 <div>
                     <div class="collapse container" id="Crunches">
                         <br>
-                        Ga liggen op een fitnessmat<br />
-                        Breng de benen omhoog en houdt de knieën in een hoek van 90 graden.<br />
-                        Plaats de handen op de borst (of leg de handen onder het hoofd, trek niet aan de nek!)<br />
-                        Breng het hoofd, de schouders en de borst omhoog richting de knieën.<br />
-                        Kijk naar een vaste plek op het plafond en houdt de kin weg van de borst.<br />
-                        Breng het hoofd, de schouders en de borst weer naar beneden en herhaal voor het gewenste aantal herhalingen.<br />
+                        -Ga liggen op een fitnessmat<br />
+                        -Breng de benen omhoog en houdt de knieën in een hoek van 90 graden.<br />
+                        -Plaats de handen op de borst (of leg de handen onder het hoofd, trek niet aan de nek!)<br />
+                        -Breng het hoofd, de schouders en de borst omhoog richting de knieën.<br />
+                        -Kijk naar een vaste plek op het plafond en houdt de kin weg van de borst.<br />
+                        -Breng het hoofd, de schouders en de borst weer naar beneden en herhaal voor het gewenste aantal herhalingen.<br />
                         <br /><br />
                         <div class="text-center">
                           <form action="./index.php?content=scripts/crunch_script" method="post">
@@ -294,13 +308,15 @@
     </div>
     <div class="col-sm">
     <div class="card">
-            <div id="pointer" id="licht" class="card-header text-center" data-toggle="collapse" href="#CloseGripPushUp" aria-expanded="false" aria-controls="collapseExample">
+            <div id="licht" id="pointer" class="card-header text-center" data-toggle="collapse" href="#CloseGripPushUp" aria-expanded="false" aria-controls="collapseExample">
                 beginner
             </div>
             <div>
-                <img id="img_card" src="./img/Close-Grip-Push-up-opdrukken.jpg" alt="CloseGripPushUp" data-toggle="collapse" href="#CloseGripPushUp" aria-expanded="false" aria-controls="collapseExample"/>
-                <div class="text-center" data-toggle="collapse" href="#CloseGripPushUp" aria-expanded="false" aria-controls="collapseExample" style="height:35px;">
-                    <h5>Close Grip Push Up</h5><br>
+                <div id="cursor">
+                    <img id="img_card" src="./img/Close-Grip-Push-up-opdrukken.jpg" alt="CloseGripPushUp" data-toggle="collapse" href="#CloseGripPushUp" aria-expanded="false" aria-controls="collapseExample"/>
+                    <div class="text-center" data-toggle="collapse" href="#CloseGripPushUp" aria-expanded="false" aria-controls="collapseExample" style="height:35px;">
+                        <h5>Close Grip Push Up</h5><br>
+                    </div>
                 </div>
                 <div>
                     <div class="collapse container" id="CloseGripPushUp">

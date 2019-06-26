@@ -16,6 +16,10 @@
 
     mysqli_query($conn, $sql);
 
+    $sql = "INSERT INTO `progressie` (`id`, `training`, `aantalMinuten`, `calorien`, `datum`) VALUES ( $id , 'Reverse Crunch', '" . $_POST["crunchminuut"] . "' , $trainingswaarde , '" . date("d-m-Y") . "' );";
+
+    mysqli_query($conn, $sql);
+
     echo"<br> <br>";
 ?>
 

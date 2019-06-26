@@ -15,11 +15,11 @@
     $sql = "UPDATE `login`
                 SET `calorien` = `calorien` + $trainingswaarde
                 
-                WHERE `id` = $id;
-                
-                SET `niveau` = `niveau` + $level
-                WHERE `id` = $id;
-                ";
+                WHERE `id` = $id;";
+
+    mysqli_query($conn, $sql);
+
+    $sql = "INSERT INTO `progressie` (`id`, `training`, `aantalMinuten`, `calorien`, `datum`) VALUES ( $id , 'Abdominal Air Bike', '" . $_POST["airbikeminuut"] . "' , $trainingswaarde , '" . date("d-m-Y") . "' );";
 
     mysqli_query($conn, $sql);
 
